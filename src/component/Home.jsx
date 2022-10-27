@@ -1,7 +1,10 @@
 import React from 'react';
+import Navbar from './Navbar';
 
 const Home = () => {
     return (
+        <div>
+            <Navbar />
         <div className="hero">
             <div class="card bg-dark text-white border-0">
                 <img src="/assets/bg.jpg" class="card-img" alt="Background" height="600px"/>
@@ -15,6 +18,7 @@ const Home = () => {
                     
                 </div>
             </div>
+        </div>
         </div>
     );
 }
