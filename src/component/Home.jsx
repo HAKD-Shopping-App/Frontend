@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
-import 'bootstrap/dist/css/bootstrap.min.css';
+//import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Card, Col, Button, Row } from 'react-bootstrap';
 
 
@@ -18,7 +18,7 @@ const Home = () => {
                             Check out all trends
                         </p>
                     </div>
-                    <div className="App">
+                    <div className="App-1">
                         <Container className='p-4'>
                             <Row>
                             <Col md="3">
