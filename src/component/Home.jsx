@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
+import {Link} from "react-router-dom"
 //import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Card, Col, Button, Row } from 'react-bootstrap';
 
@@ -30,7 +31,7 @@ const Home = () => {
 
                                         </Card.Text>
                                         <Button variant="primary"style={{ backgroundColor: "#aa92df", borderStyle: "none", float: "center",}}>
-                                            Shop Now
+                                            <Link to = "/dashboard" style={{'text-decoration':"none", 'color':"white"}}>Shop Now</Link>
                                         </Button>
                                     </Card.Body>
                                 </Card>
@@ -44,7 +45,7 @@ const Home = () => {
 
                                         </Card.Text>
                                         <Button variant="primary"style={{ backgroundColor: "#aa92df", borderStyle: "none", float: "center",}}>
-                                            Advertise
+                                            <Link to = "/auth" style={{'text-decoration':"none", 'color':"white"}}>Advertise</Link>
                                         </Button>
                                     </Card.Body>
                                 </Card>

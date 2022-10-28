@@ -6,11 +6,6 @@ import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { Context } from "../../Context";
 
-function Click(count ,productId){
-    //const [count, setCount] = useState([]);
-
-}
-
 const ProductSingle = ({product}) => {
     const { items, setItems } = useContext(Context);
     const clickHandler = () => {
