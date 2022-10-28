@@ -1,8 +1,8 @@
 import React from "react";
 import { Grid } from '@mui/material';
-import Navbar from '../Navbar';
+import Navbar from './Dashboard/Nav';
 
-import Product from './ProductSingle'
+import Product from './Products/ProductSingle'
 //for now
 const product = [
     {id: 1, name : 'Shoes', description : 'Sport shoes', price : '$10', image : 'https://cdn.shopify.com/s/files/1/0418/6000/6041/products/p1766356.jpg?v=1602067881'},
