@@ -36,8 +36,6 @@ const Navbar = () => {
                             <button class="btn btn-outline-dark" type="submit">Search</button>
                         </form>
                         <div className="buttons">
-                            <a href="http://localhost:3000/auth" className="btn btn-outline-dark me-2">
-                                <i className="fa fa-sign-in me-1"></i>Logout</a>
                             <a href="" className="btn btn-outline-dark">
                                 <i className="fa fa-shopping-cart me-1"></i>Cart ({items})</a>
                         </div>
