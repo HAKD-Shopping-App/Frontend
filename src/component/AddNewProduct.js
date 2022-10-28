@@ -7,7 +7,7 @@ function AddNewProduct() {
     let products = Array.from(Array(10).keys());
     return (
         <div className="landingpage-main-container">
-                <NavbarLogout/>
+            <NavbarLogout />
             <div className="landingpage-body d-flex flex-column p-4">
 
                 <ul class="navbar-nav align-items-left">
