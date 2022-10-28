@@ -44,8 +44,8 @@ const Home = () => {
                                         <Card.Text>
 
                                         </Card.Text>
-                                        <Button variant="primary"style={{ backgroundColor: "#aa92df", borderStyle: "none", float: "center",}}>
-                                            <Link to = "/auth" style={{'text-decoration':"none", 'color':"white"}}>Advertise</Link>
+                                        <Button href='Advertise' variant="primary"style={{ backgroundColor: "#aa92df", borderStyle: "none", float: "center",}}>
+                                            Advertise
                                         </Button>
                                     </Card.Body>
                                 </Card>
