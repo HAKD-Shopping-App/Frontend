@@ -6,8 +6,12 @@ import Products from './component/Products/Products';
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Auth from "./Auth"
+import Dashboard  from './component/Dashboard/Dashboard';
+import Men from './component/Men';
+import Women from './component/Women'
 import Advertise from './component/Advertise';
 import AddNewProduct from './component/AddNewProduct';
+
 
 
 function App() {
@@ -21,8 +25,11 @@ function App() {
       <Routes>
         <Route path="/">
         <Route index element={<Home/>} />
-        <Route path="/Products" element={<Products/>} />
+        <Route path="/Products" element={<Dashboard />} />
         <Route path="/auth" element={<Auth />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/men" element={<Men/>} />
+        <Route path="/women" element={<Women />} />
         <Route path="/Advertise" element={<Advertise/>} />
         <Route path="/AddNewProduct" element={<AddNewProduct/>} />
         </Route>

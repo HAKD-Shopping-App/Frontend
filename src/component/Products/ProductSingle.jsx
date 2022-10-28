@@ -1,11 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Card, CardMedia, CardContent, CardActions, Typography, IconButton } from '@mui/material'
 import {AddShoppingCart} from '@mui/icons-material'
 import useStyles from './styles'
+import { useContext } from "react";
+import { useNavigate } from "react-router-dom";
+import { Context } from "../../Context";
 
+function Click(count ,productId){
+    //const [count, setCount] = useState([]);
+
+}
 
 const ProductSingle = ({product}) => {
+    const { items, setItems } = useContext(Context);
+    const clickHandler = () => {
+        setItems((prevcount) => prevcount + 1);
+    };
+
   const classes = useStyles();
+  
   return (
     <div>
         <Card className = {classes.root}>
@@ -24,7 +37,9 @@ const ProductSingle = ({product}) => {
                 
             </CardContent>
             <CardActions disableSpacing className={classes.cardActions}>
-                <IconButton aria-label=' Add to card'> <AddShoppingCart /></IconButton>
+                
+                <IconButton onClick={clickHandler} aria-label=' Add to card' > <AddShoppingCart /></IconButton>
+                Count:{items}
             </CardActions>
         </Card>
     </div>

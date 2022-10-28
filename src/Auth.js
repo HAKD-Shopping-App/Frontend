@@ -1,5 +1,6 @@
 
 import React, { useState } from "react"
+import Navbar from "./component/Navbar";
 
 export default function (props) {
   let [authMode, setAuthMode] = useState("signin")
@@ -10,6 +11,8 @@ export default function (props) {
 
   if (authMode === "signin") {
     return (
+      <div>
+        <Navbar />
       <div className="Auth-form-container">
         <form className="Auth-form">
           <div className="Auth-form-content">
@@ -47,10 +50,14 @@ export default function (props) {
           </div>
         </form>
       </div>
+      </div>
     )
   }
 
   return (
+    <div>
+      <Navbar />
+    
     <div className="Auth-form-container">
       <form className="Auth-form">
         <div className="Auth-form-content">
@@ -95,6 +102,7 @@ export default function (props) {
           </p>
         </div>
       </form>
+    </div>
     </div>
   )
 }
