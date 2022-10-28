@@ -43,7 +43,7 @@ const Home = () => {
                                         <Card.Text>
 
                                         </Card.Text>
-                                        <Button variant="primary"style={{ backgroundColor: "#aa92df", borderStyle: "none", float: "center",}}>
+                                        <Button href='Advertise' variant="primary"style={{ backgroundColor: "#aa92df", borderStyle: "none", float: "center",}}>
                                             Advertise
                                         </Button>
                                     </Card.Body>

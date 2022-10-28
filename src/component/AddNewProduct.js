@@ -1,17 +1,18 @@
 import React from 'react';
 import './advertise.css'
+import NavbarLogout from './NavbarLogout';
 import { Link } from "react-router-dom";
 
 function AddNewProduct() {
     let products = Array.from(Array(10).keys());
     return (
         <div className="landingpage-main-container">
-
+                <NavbarLogout/>
             <div className="landingpage-body d-flex flex-column p-4">
 
-                <ul class="navbar-nav align-items-center">
+                <ul class="navbar-nav align-items-left">
                     <li class="nav-item">
-                        <Link to='/Advertise' className="btn btn-primary">Your Products</Link>
+                        <Link to='/Advertise' className="btn btn-primary">View Your Products</Link>
                     </li>
                 </ul>
 
