@@ -35,7 +35,7 @@ function Advertise() {
                             </ul>
                             <div class="card-body">
 
-                                <a href="#" class="btn btn-primary" style={{ backgroundColor: "#aa92df", borderStyle: "none", float: "left" }}>Edit</a>
+                                <a href="AddNewProduct" class="btn btn-primary" style={{ backgroundColor: "#aa92df", borderStyle: "none", float: "left" }}>Edit</a>
 
                                 <a href="#" class="btn btn-primary" style={{ backgroundColor: "#FF0000", borderStyle: "none", float: "right" }}>Remove</a>
                             </div>
