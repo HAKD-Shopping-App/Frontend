@@ -17,18 +17,18 @@ const ProductSingle = ({product}) => {
   return (
     <div>
         <Card className = {classes.root}>
-            <CardMedia className= {classes.media} image = {product.image} title = {product.name} />
+            <CardMedia className= {classes.media} image = {product.image} title = {product.product_name} />
 
             <CardContent>
                 <div className = {classes.cardContent}>
                     <Typography variant='h5' gutterBottom>
-                        {product.name}
+                        {product.brand}
                     </Typography>
                     <Typography variant='h5'>
                         {product.price}
                     </Typography>
                 </div>
-                <Typography variant='body2' color="textSecondary">{product.description} </Typography>
+                <Typography variant='body2' color="textSecondary">{product.band_colour} </Typography>
                 
             </CardContent>
             <CardActions disableSpacing className={classes.cardActions}>

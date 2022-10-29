@@ -13,10 +13,10 @@ const NavbarLogout = () => {
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="http://localhost:3000">Home</a>
+                                <a class="nav-link active" aria-current="page" href="/">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="http://localhost:3000/products">Products</a>
+                                <a class="nav-link" href="products">Products</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">About</a>
@@ -30,7 +30,7 @@ const NavbarLogout = () => {
                             <button class="btn btn-outline-dark" type="submit">Search</button>
                         </form>
                         <div className="buttons">
-                            <a href="http://localhost:3000" className="btn btn-outline-dark me-2">
+                            <a href="/" className="btn btn-outline-dark me-2">
                                 <i className="fa fa-sign-out me-1"></i>Logout</a>
                             <a href="" className="btn btn-outline-dark">
                                 <i className="fa fa-shopping-cart me-1"></i>Cart (0)</a>
